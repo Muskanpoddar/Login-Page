@@ -1,0 +1,96 @@
+/**@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap')**/
+
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    margin : 0px;
+    padding : 0px;
+    background-image: url(/image/loginbackground.png);
+
+    .box{
+      height:50%;
+      width:50%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 25%;
+     margin-top: 60px;
+      z-index:-1;
+      border: 2px solid rgb(243, 239, 239) ;
+      background-color: rgb(148, 40, 40) ;
+      
+    }
+
+    .avatar{
+        width:15%;
+        border-radius: 50%;
+        margin :10px 38rem;
+    }
+
+    .h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight:bolder;
+        
+    }
+    .container{
+      border : 1px solid rgb(174, 129, 212);
+      border-width:0px;
+    }
+  }
+  .form{
+    display: flex;
+    text-align :center;
+    flex-direction: column;
+    width : 40%;
+    align-items: center;
+    margin :20px 27rem;
+    color:rgb(189, 187, 187)
+   
+  }
+  input{
+    font-size: 1 rem;
+    border-color: #585656;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding :5px;
+    background-color: rgb(223, 221, 224);
+    color: rgb(13, 10, 10);
+   
+  }
+
+  label{
+    font-size: 1.5rem;
+    font-weight:900;
+    padding: 5px 0px;
+  }
+  button{
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(174, 129, 212);
+    color: whitesmoke;
+  }
+  button:hover{
+    opacity: 0.7s;
+    color:rgb(252, 252, 89);
+    cursor:pointer;
+  }
+  .remember small{
+    text-decoration: underline;
+    cursor:pointer;
+    color:wheat;
+  }
+  .remember p{
+    color:rgb(174, 129, 212);
+  }
+  .remember a{
+color: wheat;
+cursor:pointer;
+  }
+
+
